@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4af728ab-2938-4ef2-9223-d0f2b35f4c96": {
+      "ProjectGuid": "4af728ab-2938-4ef2-9223-d0f2b35f4c96",
+      "DisplayName": "PracticaFinal.SalasCine.Infrastructure",
+      "ColorIndex": 0
+    },
+    "6f255baa-ba69-43b9-80a3-b03baada28d4": {
+      "ProjectGuid": "6f255baa-ba69-43b9-80a3-b03baada28d4",
+      "DisplayName": "PracticaFinal.SalasCine.Application",
+      "ColorIndex": 1
+    },
+    "2f3e1713-e759-450f-b419-a1d4c3e83ae4": {
+      "ProjectGuid": "2f3e1713-e759-450f-b419-a1d4c3e83ae4",
+      "DisplayName": "PracticaFinal.SalasCine.Domain",
+      "ColorIndex": 2
+    },
+    "4f97994c-1274-4ff6-a4a9-6b8bb5c9dd42": {
+      "ProjectGuid": "4f97994c-1274-4ff6-a4a9-6b8bb5c9dd42",
+      "DisplayName": "PracticaFinal.SalasCine.Api",
+      "ColorIndex": 3
+    },
+    "70ca9c28-8a4b-4299-9639-efc84ec5be7a": {
+      "ProjectGuid": "70ca9c28-8a4b-4299-9639-efc84ec5be7a",
+      "DisplayName": "PracticaFinal.SalasCine.Api",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}

@@ -3,30 +3,30 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using Epm.Autogeneradores.PreRegistro.Domain.Entities;
+using PracticaFinal.SalasCine.Domain.Entities;
 
-namespace Epm.Autogeneradores.PreRegistro.Domain.Ports
+namespace PracticaFinal.SalasCine.Domain.Ports
 {
-    public interface IGenericRepository<TE> : IDisposable
-        where TE : DomainEntity
+    public interface IGenericRepository<T> : IDisposable
+        where T : DomainEntity
 
     {
-        Task<IEnumerable<TE>> GetAsync(Expression<Func<TE, bool>> filter = null,
-            Func<IQueryable<TE>, IOrderedQueryable<TE>> orderBy = null, string includeStringProperties = "",
+        Task<IEnumerable<T>> GetAsync(Expression<Func<T, bool>> filter = null,
+            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string includeStringProperties = "",
             bool isTracking = false);
 
-        Task<IEnumerable<TE>> GetAsync(Expression<Func<TE, bool>> filter = null,
-            Func<IQueryable<TE>, IOrderedQueryable<TE>> orderBy = null,
-            bool isTracking = false, params Expression<Func<TE, object>>[] includeObjectProperties);
+        Task<IEnumerable<T>> GetAsync(Expression<Func<T, bool>> filter = null,
+            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
+            bool isTracking = false, params Expression<Func<T, object>>[] includeObjectProperties);
 
-        Task<IEnumerable<TE>> GetAsync(IEnumerable<Expression<Func<TE, bool>>> filters,
-            Func<IQueryable<TE>, IOrderedQueryable<TE>> orderBy = null,
+        Task<IEnumerable<T>> GetAsync(IEnumerable<Expression<Func<T, bool>>> filters,
+            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
             string includeStringProperties = "",
             bool isTracking = false);
 
-        Task<TE> GetByIdAsync(object id);
-        Task<TE> AddAsync(TE entity);
-        Task UpdateAsync(TE entity);
-        Task DeleteAsync(TE entity);
+        Task<T> GetByIdAsync(object id);
+        Task<T> AddAsync(T entity);
+        Task UpdateAsync(T entity);
+        Task DeleteAsync(T entity);
     }
 }

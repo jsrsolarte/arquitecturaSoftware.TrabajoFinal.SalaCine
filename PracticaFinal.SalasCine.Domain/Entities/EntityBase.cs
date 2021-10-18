@@ -1,4 +1,4 @@
-﻿namespace Epm.Autogeneradores.PreRegistro.Domain.Entities
+﻿namespace PracticaFinal.SalasCine.Domain.Entities
 {
     public class EntityBase<T> : DomainEntity, IEntityBase<T>
     {

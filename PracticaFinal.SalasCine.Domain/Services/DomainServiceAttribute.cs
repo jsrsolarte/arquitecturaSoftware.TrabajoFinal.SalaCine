@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Epm.Autogeneradores.PreRegistro.Domain.Services
+namespace PracticaFinal.SalasCine.Domain.Services
 {
     [AttributeUsage(AttributeTargets.Class)]
     public sealed class DomainServiceAttribute : Attribute

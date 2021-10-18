@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/projectSettingsUpdater.xml
+/modules.xml
+/.idea.PracticaFinal.SalasCine.iml
+# Datasource local storage ignored files
+/../../../../../../../../:\jsrs\Udea\ArquiSoft\PracticaFinal.SalasCine\.idea\.idea.PracticaFinal.SalasCine\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
